@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Calculate">
+      <UniqueIdentifier>{bcd70b25-7781-45d6-94e1-8965fbeda8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CoordinateSystem">
+      <UniqueIdentifier>{08089b6f-2f9b-4f79-a8c9-16562f2679e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DataStructure">
+      <UniqueIdentifier>{8e9d40fc-ccea-40eb-9724-193c4f8f0483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\OEM7File">
+      <UniqueIdentifier>{27dacaa9-bc56-4f2d-8b45-b9a03ec30e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TimeSystem">
+      <UniqueIdentifier>{f454e05c-21a8-4179-829b-c400669b2db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStructure">
+      <UniqueIdentifier>{fcb57a28-4ec4-4005-bd6c-156c8935e035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TimeSystem">
+      <UniqueIdentifier>{87665981-d4f8-4592-8b4f-306d52fc12d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LinerAlgebra">
+      <UniqueIdentifier>{464711cb-c175-4fb3-af94-11c43c4ffd38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\NewFilter1">
+      <UniqueIdentifier>{4b9171a9-4425-4a8f-82a2-0f26f21fa9bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SPP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\BaseEphemeris.cpp">
+      <Filter>源文件\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\BDSEphemeris.cpp">
+      <Filter>源文件\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\Range.cpp">
+      <Filter>源文件\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\Satellite.cpp">
+      <Filter>源文件\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\SatelliteData.cpp">
+      <Filter>源文件\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSystem\CommomTime.cpp">
+      <Filter>源文件\TimeSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSystem\GPSTime.cpp">
+      <Filter>源文件\TimeSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculate\BIN2DEC.hpp">
+      <Filter>头文件\Calculate</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculate\Constant.h">
+      <Filter>头文件\Calculate</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculate\NewtonIteration.hpp">
+      <Filter>头文件\Calculate</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinateSystem\BLHCoordinate.hpp">
+      <Filter>头文件\CoordinateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinateSystem\Ellipsoid.hpp">
+      <Filter>头文件\CoordinateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinateSystem\XYZCoordinate.hpp">
+      <Filter>头文件\CoordinateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\BaseEphemeris.h">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\BDSEphemeris.h">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\GPSEphemeris.h">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\PositionResult.hpp">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\Range.h">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\Satellite.h">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\SatelliteData.h">
+      <Filter>头文件\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="OEM7File\OEM7Decoder.hpp">
+      <Filter>头文件\OEM7File</Filter>
+    </ClInclude>
+    <ClInclude Include="OEM7File\OEM7Msg.hpp">
+      <Filter>头文件\OEM7File</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSystem\CommomTime.h">
+      <Filter>头文件\TimeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSystem\GPSTime.h">
+      <Filter>头文件\TimeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Sockets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OEM7File\OEM7MsgHead.h">
+      <Filter>头文件\OEM7File</Filter>
+    </ClInclude>
+    <ClInclude Include="LinerAlgebra\Matrix.hpp">
+      <Filter>头文件\LinerAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="LinerAlgebra\MatrixBase.hpp">
+      <Filter>头文件\LinerAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="LinerAlgebra\MatrixVecBase.hpp">
+      <Filter>头文件\LinerAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="LinerAlgebra\Vec.hpp">
+      <Filter>头文件\LinerAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="LinerAlgebra\Vec3d.hpp">
+      <Filter>头文件\LinerAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="LinerAlgebra\VecBase.hpp">
+      <Filter>头文件\LinerAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="LinerAlgebra\Matrix3d.hpp">
+      <Filter>头文件\LinerAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Format\FormatOutput.hpp">
+      <Filter>头文件\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculate\Hopefield.hpp">
+      <Filter>头文件\Calculate</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculate\CalHeightAngle.hpp">
+      <Filter>头文件\Calculate</Filter>
+    </ClInclude>
+    <ClInclude Include="SPP.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
